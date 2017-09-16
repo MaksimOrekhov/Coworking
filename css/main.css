@@ -281,3 +281,14 @@ h1 {
     fill: rgb(236, 30, 121);   
 }
 
+.overlay {
+    background-color: rgb(39, 39, 62);
+    opacity: 0.851;
+    position: absolute;
+    left: 187px;
+    top: 237px;
+    width: 273px;
+    height: 176px;
+    z-index: 15;
+  }
+  
