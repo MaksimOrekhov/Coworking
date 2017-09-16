@@ -13,47 +13,65 @@
 
     <div class="wrapper">
 
+    <!-- ХЕДЕР -->
+
         <div class="container">
             <header class="header">
                 <div class="contacts">
-                    <span class="contacts__phone">8 (800) 00-392-10</span>
-                    <span class="contacts__scedule">График работы</span>
+                    <div class="contacts__phone">8 (800) 00-392-10</div>
+                    <div class="contacts__schedule">
+                        <span>График работы</span>
+                        <div class="contacts__schedule-time">
+                            <p class="bold">пн-вс: 09:00-20:00</p>
+                            <p>обед: 14:00-14:30</p>
+                        </div>
+                    </div>
                 </div>
             </header>
         </div>
 
+    <!-- БОКОВОЕ МЕНЮ -->
+
         <div class="container">
-            <nav class="menu">
-                <ul>
-                    <li class="menu__item_1">
+            <nav class="sidebar">
+                <ul class="menu">
+                    <li class="menu__item">
                         <a href="#">
-                            <div class="menu__icon"><img src="../img/main_icon.png" alt=""></div>
+                            <img src="../img/main_icon.png" alt="">
                             <div class="menu__title">Главная</div>
                         </a>
                     </li>
-                    <li class="menu__item_2">
+                    <li class="menu__item active">
                         <a href="#">
-                            <div class="menu__icon"><img src="../img/wallet_icon.png" alt=""></div>
+                            <img src="../img/wallet_icon.png" alt="">
                             <div class="menu__title">Тарифы</div>
                         </a>
                     </li>
-                    <li class="menu__item_3">
+                    <li class="menu__item">
                         <a href="#">
-                            <div class="menu__icon"><img src="../img/feed_icon.png" alt=""></div>
+                            <img src="../img/feed_icon.png" alt="">
                             <div class="menu__title">Отзывы</div>
                         </a>
                     </li>
                 </ul>
             </nav>
 
+     <!-- ХЛЕБНЫЕ КРОШКИ -->
+
             <div class="content">
                 
-                <div class="breadcrumbs">
-                     <a href="#" class="breadcrumbs__link">Главная</a>
-                     <a href="#" class="breadcrumbs__link">/ Тарифы</a>
-                </div>
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link-active">/ Тарифы</a>
+                        </li>
+                    </ul>
 
-                <h1>Тарифы</h1>
+                <h1 class="title">Тарифы</h1>
+
+     <!-- КАРТОЧКИ С ЦЕНАМИ -->
 
             <div class="cards">
                 <ul class="prices"> 
@@ -114,13 +132,18 @@
 
     </div>
 
+    <!-- ФУТЕР -->
+
     <div class="container">
         <footer class="footer">
             <div class="footer__author">
                 Сделано с любовью и старанием
-                на курсе «HTML + CSS» в <span class="school_name">LoftSchool.</span>
+                на курсе «HTML + CSS» в <a href="https://loftschool.com" class="school_name">LoftSchool.</a>
                 Автор работы: <b>Орехов Максим</b>
             </div>
+
+    <!-- КНОПКИ СОЦИАЛОК -->
+
             <div class="footer__social">
                     <div>Наши социальные сети</div>
                     <ul class="socials">

@@ -10,12 +10,14 @@ body {
 .price {
     margin: 0;
     padding: 0;
-  }
+}
 
-  .wrapper {
+.wrapper {
       min-height: 100%;
       overflow: hidden;
-  }
+}
+
+/* ХЕДЕР */
 
 .header {
     background: url("../img/logo-fig.png") no-repeat;
@@ -34,7 +36,7 @@ body {
     top: 20px;
 }
 
-.contacts__scedule {
+.contacts__schedule > span {
     font-family: Open sans;
     font-size: 14px;
     color: rgb(192, 33, 105);
@@ -45,12 +47,41 @@ body {
     top: 40px;
 }
 
-.contacts__scedule:hover {
-    color: rgb(93, 209, 248);
+.contacts__schedule span:hover {
+    color: rgb(127, 170, 212);
     cursor: pointer;
 }
 
-.menu a {
+.contacts__schedule:active .contacts__schedule-time
+{
+    display: block;
+}
+.contacts__schedule:hover .contacts__schedule-time
+{
+    display: block;
+}
+
+.contacts__schedule-time {
+    font-size: 14px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    display: none;
+    width: 159px;
+    height: 98px;
+    padding-top: 20px;
+    padding-left: 15px;
+    background: url("../img/Rounded_Rectangle.png") no-repeat;
+}
+
+.bold {
+    color: rgb(192, 33, 105);
+    font-weight: bold;
+}
+
+/* БОКОВОЕ МЕНЮ */
+
+.sidebar a {
     text-decoration: none;
     font-size: 12px;
     text-transform: uppercase;
@@ -59,20 +90,24 @@ body {
     font-weight: bold;
 }
 
-.menu {
+.sidebar {
     position: relative;
     float: left;
     left: -15px;
     width: 180px;
 }
 
-.menu li {
+.sidebar img {
+    margin-right: 20px;
+}
+
+.sidebar li {
     display: inline-block;
     padding-top: 30px;
     list-style: none;
 }
 
-.menu__item_2 .menu__title {
+.active .menu__title {
     color: #000000;
 }
 
@@ -80,7 +115,6 @@ body {
     position: relative;
     float: left;
     margin-right: 20px;
-    
 }
 
 .menu__title {
@@ -89,9 +123,11 @@ body {
     margin-top: 5px;
 }
 
-.menu a:hover {
+.sidebar a:hover {
     color: #000000;
 }
+
+/* ХЛЕБНЫЕ КРОШКИ */
 
 .content {
     width: 900px;
@@ -101,27 +137,40 @@ body {
 .breadcrumbs {
     position: relative;
     float: left;
-    top: 45px;
+    top: 35px;
     font-style: italic;
     font-size: 14px;
     width: 100%;
+    list-style: none;
+    padding: 0px;
 }
 
-.breadcrumbs__link:first-child {
+.breadcrumbs__item {
+    display: inline;
+}
+
+.breadcrumbs__link {
     color: rgb(236, 30, 121);
 }
 
-.breadcrumbs__link:last-child {
+.breadcrumbs .breadcrumbs__link-active {
     color: #000000;
     text-decoration: none;
 }
+
+.breadcrumbs__link:hover {
+    color: #000000;
+}
+
+/* КАРТОЧКИ С ЦЕНАИМ И ОСНОВНОЕ СОДЕРЖАНИЕ */
 
 h1 {
     position: relative;
     float: left;
     font-size: 49px;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .cards {
@@ -151,11 +200,9 @@ h1 {
 }
 
 .picture__text {
-    display: block;
     position: absolute;
-    text-align: center;
     top: 65px;
-    /* left: 7px; */
+    left: 25px;
     text-transform: uppercase;
 }
 
@@ -180,6 +227,8 @@ h1 {
     color: rgb(236, 30, 121);
 }
 
+/* ФУТЕР */
+
 .footer {
     position: relative;
     background: url("../img/logo-fig.png") no-repeat;
@@ -187,7 +236,7 @@ h1 {
     background-position: center;
     width: 100%;
     height: 75px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .footer__author {
@@ -201,7 +250,7 @@ h1 {
 
 .school_name {
     font-weight: bold;
-    text-decoration: underline;
+    color: #fff;
 }
 .footer__social {
     display: block;
