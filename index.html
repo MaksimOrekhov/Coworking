@@ -15,20 +15,25 @@
 
     <!-- ХЕДЕР -->
 
-        <div class="container">
+        
             <header class="header">
-                <div class="contacts">
-                    <div class="contacts__phone">8 (800) 00-392-10</div>
-                    <div class="contacts__schedule">
-                        <span>График работы</span>
-                        <div class="contacts__schedule-time">
-                            <p class="bold">пн-вс: 09:00-20:00</p>
-                            <p>обед: 14:00-14:30</p>
+                <div class="container">
+                    <a href="#" class="logo">
+                        <img src="img/logo-fig.png" class="logo__img"></img>
+                    </a>
+                    <div class="contacts">
+                        <a href="tel:8(800)00-392-10" class="contacts__phone">8 (800) 00-392-10</a>
+                        <div class="contacts__schedule">
+                            <span class="schedule__text">График работы</span>
+                            <div class="contacts__schedule-time">
+                                <p class="bold">пн-вс: 09:00-20:00</p>
+                                <p>обед: 14:00-14:30</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
-        </div>
+        
 
     <!-- БОКОВОЕ МЕНЮ -->
 
@@ -36,20 +41,20 @@
             <nav class="sidebar">
                 <ul class="menu">
                     <li class="menu__item">
-                        <a href="#">
-                            <img src="img/main_icon.png" alt="">
+                        <a href="#" class="menu__link">
+                            <div class="menu__icon menu__icon_triangle"></div>
                             <div class="menu__title">Главная</div>
                         </a>
                     </li>
                     <li class="menu__item active">
-                        <a href="#">
-                            <img src="img/wallet_icon.png" alt="">
+                        <a href="#" class="menu__link">
+                            <div class="menu__icon menu__icon_wallet"></div>
                             <div class="menu__title">Тарифы</div>
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a href="#">
-                            <img src="img/feed_icon.png" alt="">
+                        <a href="#" class="menu__link">
+                            <div class="menu__icon menu__icon_feed"></div>
                             <div class="menu__title">Отзывы</div>
                         </a>
                     </li>
@@ -65,13 +70,13 @@
                             <a href="#" class="breadcrumbs__link">Главная</a>
                         </li>
                         <li class="breadcrumbs__item">
-                            <a href="#" class="breadcrumbs__link-active">/ Тарифы</a>
+                            <a href="#" class="breadcrumbs__link-active">Тарифы</a>
                         </li>
                     </ul>
 
-                <h1 class="title">Тарифы</h1>
+    <!-- КАРТОЧКИ С ЦЕНАМИ -->
 
-     <!-- КАРТОЧКИ С ЦЕНАМИ -->
+                <h1 class="title">Тарифы</h1>
 
                 <div class="cards">
                     <ul class="prices"> 
@@ -131,83 +136,56 @@
 
     <!-- ФУТЕР -->
 
-    <div class="container">
+    
         <footer class="footer">
-            <div class="footer__author">
-                Сделано с любовью и старанием
-                на курсе «HTML + CSS» в <a href="https://loftschool.com" class="school_name">LoftSchool.</a>
-                Автор работы: <b>Орехов Максим</b>
-            </div>
+            <div class="container clearfix">
+                <div class="footer__col">
+                    <div class="footer__author">
+                        Сделано с любовью и старанием
+                        на курсе «HTML + CSS» в <a href="https://loftschool.com" class="school_name">LoftSchool.</a>
+                        Автор работы: <b>Орехов Максим</b>
+                    </div>
+                </div>
+                <div class="footer__col footer__logo">
+                    <a href="#" class="d">
+                        <img src="img/logo-fig.png" class="footer__pic"></img>
+                    </a>
+                </div>
 
     <!-- КНОПКИ СОЦИАЛОК -->
-
-            <div class="footer__social">
-                    <div>Наши социальные сети</div>
-                    <ul class="socials">
-                        <li class="socials__icons">
-                            <div class="icons">
-                                <img src="img/vk.png" alt="">
-                                <svg 
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="20px" height="20px">
-                               <path fill-rule="evenodd" id="icon" fill="rgb(212, 212, 216)"
-                                d="M10.000,-0.000 C15.523,-0.000 20.000,4.477 20.000,10.000 C20.000,15.523 15.523,20.000 10.000,20.000 C4.477,20.000 -0.000,15.523 -0.000,10.000 C-0.000,4.477 4.477,-0.000 10.000,-0.000 Z"/>
-                               </svg>
-                            </div>
-                        </li>
-                        <li class="socials__icons">
-                            <div class="icons">
-                                <img src="img/fb.png" alt="">
-                                <svg 
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="20px" height="20px">
-                               <path fill-rule="evenodd" id="icon" fill="rgb(212, 212, 216)"
-                                d="M10.000,-0.000 C15.523,-0.000 20.000,4.477 20.000,10.000 C20.000,15.523 15.523,20.000 10.000,20.000 C4.477,20.000 -0.000,15.523 -0.000,10.000 C-0.000,4.477 4.477,-0.000 10.000,-0.000 Z"/>
-                               </svg>
-                            </div>
-                        </li>
-                        <li class="socials__icons">
-                            <div class="icons">
-                                <img src="img/google.png" alt="">
-                                <svg 
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="20px" height="20px">
-                               <path fill-rule="evenodd" id="icon" fill="rgb(212, 212, 216)"
-                                d="M10.000,-0.000 C15.523,-0.000 20.000,4.477 20.000,10.000 C20.000,15.523 15.523,20.000 10.000,20.000 C4.477,20.000 -0.000,15.523 -0.000,10.000 C-0.000,4.477 4.477,-0.000 10.000,-0.000 Z"/>
-                               </svg>
-                            </div>
-                        </li>
-                        <li class="socials__icons">
-                            <div class="icons">
-                                <img src="img/twitter.png" alt="">
-                                <svg 
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="20px" height="20px">
-                                    <path fill-rule="evenodd" id="icon" fill="rgb(212, 212, 216)"
-                                d="M10.000,-0.000 C15.523,-0.000 20.000,4.477 20.000,10.000 C20.000,15.523 15.523,20.000 10.000,20.000 C4.477,20.000 -0.000,15.523 -0.000,10.000 C-0.000,4.477 4.477,-0.000 10.000,-0.000 Z"/>
-                                    </svg>
-                            </div>
-                        </li>
-                        <li class="socials__icons">
-                            <div class="icons">
-                                <img src="img/mail.png" alt="">
-                                <svg 
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="20px" height="20px">
-                                    <path fill-rule="evenodd" id="icon" fill="rgb(212, 212, 216)"
-                                d="M10.000,-0.000 C15.523,-0.000 20.000,4.477 20.000,10.000 C20.000,15.523 15.523,20.000 10.000,20.000 C4.477,20.000 -0.000,15.523 -0.000,10.000 C-0.000,4.477 4.477,-0.000 10.000,-0.000 Z"/>
-                                    </svg>
-                            </div>
-                        </li>
-                    </ul>
+            <div class="footer__col">
+                <div class="footer__social">
+                        <div class="social__text">Наши социальные сети</div>
+                        <ul class="socials">
+                            <li class="socials__icons">
+                                <a href="#" class="icons">
+                                    <img src="img/vk.png" alt="" class="icons__pic">
+                                </a>
+                            </li>
+                            <li class="socials__icons">
+                                <a href="#" class="icons">
+                                    <img src="img/fb.png" alt="" class="icons__pic">
+                                </a>
+                            </li>
+                            <li class="socials__icons">
+                                <a href="#" class="icons">
+                                    <img src="img/google.png" alt="" class="icons__pic">
+                                </a>
+                            </li>
+                            <li class="socials__icons">
+                                <a href="#" class="icons">
+                                    <img src="img/twitter.png" alt="" class="icons__pic">
+                                </a>
+                            </li>
+                            <li class="socials__icons">
+                                <a href="#" class="icons">
+                                    <img src="img/mail.png" alt="" class="icons__pic">
+                                </a>
+                            </li>
+                        </ul>
+                </div>
             </div>
+        </div>
         </footer>
-    </div>
-    
 </body>
 </html>
