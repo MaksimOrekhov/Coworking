@@ -417,17 +417,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .main__list {
     line-height: 1.8em;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 .main__text li {
     list-style: none;
+    position: relative;
 }
 
 .main__list li:before {
 	content:'•';
 	color: #ec1e79;
-	padding: 0 14px 0 0;
+    left: -20px;
+    position: absolute;
 }
 
 .rect {
