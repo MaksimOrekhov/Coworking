@@ -38,28 +38,30 @@
     <!-- БОКОВОЕ МЕНЮ -->
 
         <div class="container">
-            <nav class="sidebar">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a href="main.html" class="menu__link">
-                            <div class="menu__icon menu__icon_triangle"></div>
-                            <div class="menu__title">Главная</div>
-                        </a>
-                    </li>
-                    <li class="menu__item active">
-                        <a href="index.html" class="menu__link">
-                            <div class="menu__icon menu__icon_wallet"></div>
-                            <div class="menu__title">Тарифы</div>
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
-                            <div class="menu__icon menu__icon_feed"></div>
-                            <div class="menu__title">Отзывы</div>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <aside class="navigation"></aside>
+                <nav class="sidebar">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="main.html" class="menu__link">
+                                <div class="menu__icon menu__icon_triangle"></div>
+                                <div class="menu__title">Главная</div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item-active">
+                            <a href="index.html" class="menu__link">
+                                <div class="menu__icon menu__icon_wallet"></div>
+                                <div class="menu__title">Тарифы</div>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <div class="menu__icon menu__icon_feed"></div>
+                                <div class="menu__title">Отзывы</div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
 
      <!-- ХЛЕБНЫЕ КРОШКИ -->
 
@@ -70,7 +72,7 @@
                             <a href="#" class="breadcrumbs__link">Главная</a>
                         </li>
                         <li class="breadcrumbs__item">
-                            <a href="#" class="breadcrumbs__link-active">Тарифы</a>
+                            <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Тарифы</a>
                         </li>
                     </ul>
 
@@ -140,7 +142,7 @@
             <div class="container clearfix">
                 <div class="footer__col">
                     <div class="footer__author">
-                        Сделано с любовью и старанием
+                        Сделано с любовью и старанием<br>
                         на курсе «HTML + CSS» в <a href="https://loftschool.com" class="school_name">LoftSchool.</a>
                         Автор работы: <b>Орехов Максим</b>
                     </div>
