@@ -12,6 +12,37 @@ body {
     height: 100%;
 }
 
+.intro {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+}
+
+.intro__logo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20%;
+}
+
+.button {
+    display: block;
+    padding: 14px 20px 13px 20px;
+    width: 139px;
+    margin: 30px auto;
+    border: 3px solid #ec1e79;
+    text-decoration: none;
+    color: #ec1e79;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #ec1e79;
+}
+
 .wrapper {
     position: relative;
     min-height: 100%;
@@ -57,12 +88,14 @@ body {
 }
 
 .schedule__text {
+    display: inline-block;
     font-family: Open sans;
     font-size: 14px;
     color: rgb(192, 33, 105);
     text-decoration: underline;
     font-weight: bold;
-    padding-left: 80px;
+    padding-left: 85px;
+    padding-top: 1px;
 }
 
 .contacts__schedule .schedule__text:hover {
@@ -83,7 +116,7 @@ body {
     font-size: 14px;
     position: absolute;
     top: 60px;
-    right: 190px;
+    right: 181px;
     display: none;
     width: 159px;
     height: 98px;
@@ -120,11 +153,11 @@ body {
 .menu__item {
     display: inline-block;
     list-style: none;
-    padding-bottom: 30px;
+    padding-bottom: 29px;
 }
 
 .menu {
-    padding-left: 20px;
+    padding-left: 17px;
 }
 
 .menu__icon {
@@ -180,7 +213,8 @@ body {
 .breadcrumbs {
     position: relative;
     float: left;
-    top: 35px;
+    top: 31px;
+    left: -2px;
     font-style: italic;
     font-size: 14px;
     width: 100%;
@@ -219,7 +253,8 @@ h1, h2, h3, h4, h5, h6 {
 .title {
     float: left;
     font-size: 49px;
-    margin-top: 45px;
+    margin-top: 43px;
+    margin-left: -5px;
     margin-bottom: 25px;
     font-weight: bold;
 }
@@ -232,6 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 .prices {
     list-style: none; 
     padding: 0px;
+    margin-bottom: 33px;
 }
 
 .prices__element {
@@ -263,10 +299,12 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     width: 200px;
     z-index: 2;
-    line-height: 1.5em;
+    line-height: 1.4em;
 }
 
 .prices__element-title {
+    display: inline-block;
+    vertical-align: top;
     width: 250px;
     font-weight: bold;
     text-align: center;
@@ -276,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .prices__element-text {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 13px;
     font-size: 14px;
     line-height: 1.5em;
 }
@@ -303,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
     background-color: rgb(39, 39, 62);
     width: 100%;
-    margin-top: 15px;
+    margin-top: 1px;
     min-width: 1140px;
 }
 
@@ -320,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__author {
     max-width: 280px;
-    padding: 15px 15px 15px 20px;
+    padding: 12px 15px 15px 20px;
     color: #ffffff;
     font-size: 14px;
     line-height: 1.3em;
@@ -334,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer__social {
     display: inline-block;
     color: #ffffff;
-    margin-right: 20px;
+    margin-right: 19px;
     margin-top: 20px;
     font-weight: bold;
     font-size: 14px;
@@ -344,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 .socials {
     list-style: none;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .socials__icons {
@@ -355,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__pic {
-    margin: 15px 35%;
+    margin: 15px 36%;
 }
 
 .icons__pic {
@@ -364,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .icons {
     display: inline-block;
-    width: 20px;
+    width: 21px;
     height: 20px;
     text-align: center;
     vertical-align: middle;
@@ -379,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 .about {
     display: inline-block;
     float: left;
-    margin-left: 25px;
+    margin-left: 22px;
     width: 700px;
 }
 
@@ -397,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 49px;
     font-weight: bold;
     color: #fff;
-    top: 235px;
+    top: 234px;
     left: 430px;
 }
 
@@ -412,12 +450,13 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     color: #221f1f;
     font-size: 18px;
-    line-height: 1.6em;
+    line-height: 1.5em;
 }
 
 .main__list {
-    line-height: 1.8em;
+    line-height: 1.9em;
     padding-left: 35px;
+    margin-top: -15px;
 }
 
 .main__text li {
@@ -434,7 +473,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .rect {
     color: #fff;
-    padding: 15px 55px 10px 30px;
+    padding: 10px 55px 13px 30px;
     background-color: #27273e;
 }
 
@@ -446,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 .partners__head {
     text-transform: uppercase;
     font-size: 49px;
-    margin-top: 75px;
+    margin-top: 86px;
     font-weight: bold;
 }
 
@@ -466,10 +505,10 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     vertical-align: middle;
     margin-right: 125px;
-    margin-bottom: 45px;
-    width: 160px;
+    margin-bottom: 51px;
+    width: 147px;
     -webkit-filter: grayscale(100%);
-    /* -webkit-filter: brightness(1.5); */
+    text-align: center;
 }
 
 .partners__logo:hover {
