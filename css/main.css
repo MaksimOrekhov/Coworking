@@ -67,17 +67,16 @@ body {
 .header {
     background-color: rgb(39, 39, 62);
     width: 100%;
-}
-
-.logo__img {
-    margin: 10px 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .contacts {
     float: right;
     display: inline-block;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-right: 40px;
 }
 
 .contacts__phone {
@@ -233,6 +232,7 @@ body {
 .breadcrumbs .breadcrumbs__link--active {
     color: #000000;
     text-decoration: none;
+    cursor: default;
 }
 
 .breadcrumbs__link:hover {
@@ -421,13 +421,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 700px;
 }
 
-.gradient {
+/* .gradient {
     position: absolute;
     background-image: linear-gradient(to right, #27273e 43%, #5dd1f8 93%);
     opacity: 0.5;
     width: 880px;
     height: 355px;
-}
+} */
 
 .about__text {
     position: absolute;
@@ -475,6 +475,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     padding: 10px 55px 13px 30px;
     background-color: #27273e;
+    margin-bottom: 86px;
 }
 
 .rect__disc {
@@ -485,7 +486,6 @@ h1, h2, h3, h4, h5, h6 {
 .partners__head {
     text-transform: uppercase;
     font-size: 49px;
-    margin-top: 86px;
     font-weight: bold;
 }
 
