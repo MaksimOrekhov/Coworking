@@ -1,0 +1,86 @@
+/* КАРТОЧКИ С ЦЕНАИМ И ОСНОВНОЕ СОДЕРЖАНИЕ */
+
+.title {
+    float: left;
+    font-size: 49px;
+    margin-top: 43px;
+    margin-left: -5px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.cards {
+    float: left;
+    width: 950px;
+}
+
+.prices {
+    list-style: none; 
+    padding: 0px;
+    margin-bottom: 33px;
+}
+
+.prices__element {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+.prices__element-picture {
+    display: inline-block;   
+    position: relative;
+    font-size: 24px;
+    color: rgb(93, 209, 248);
+    font-weight: bold;
+    width: 250px;
+    height: 153px;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.picture__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    width: 200px;
+    z-index: 2;
+    line-height: 1.4em;
+}
+
+.prices__element-title {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.prices__element-text {
+    text-align: center;
+    padding-top: 13px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.vip {
+    color: rgb(236, 30, 121);
+}
+
+.prices__element-picture::after {
+    content: "";
+    background-color: rgb(39, 39, 62);
+    opacity: 0.851;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    height: 153px;
+    z-index: 1;
+  }

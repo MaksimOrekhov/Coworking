@@ -1,0 +1,67 @@
+/* ХЕДЕР */
+
+.header {
+    background-color: rgb(39, 39, 62);
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.contacts {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.contacts__phone {
+    font-size: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.schedule__text {
+    display: inline-block;
+    font-family: Open sans;
+    font-size: 14px;
+    color: rgb(192, 33, 105);
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 85px;
+    padding-top: 1px;
+}
+
+.contacts__schedule .schedule__text:hover {
+    color: rgb(127, 170, 212);
+    cursor: pointer;
+}
+
+.contacts__schedule:active .contacts__schedule-time
+{
+    display: block;
+}
+.contacts__schedule:hover .contacts__schedule-time
+{
+    display: block;
+}
+
+.contacts__schedule-time {
+    font-size: 14px;
+    position: absolute;
+    top: 60px;
+    right: 181px;
+    display: none;
+    width: 159px;
+    height: 98px;
+    padding-top: 20px;
+    padding-left: 15px;
+    background-image: url("../../img/Rounded_Rectangle.png");
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.bold {
+    color: rgb(192, 33, 105);
+    font-weight: bold;
+}

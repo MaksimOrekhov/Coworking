@@ -1,0 +1,111 @@
+/* БОКОВОЕ МЕНЮ */
+
+.menu__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(236, 30, 121);
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.sidebar {
+    float: left;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.menu__item {
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 29px;
+}
+
+.menu {
+    padding-left: 17px;
+}
+
+.menu__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.menu__icon_triangle {
+    background-image: url('../../img/main_icon.png'); 
+}
+
+.menu__icon_wallet {
+    background-image: url('../../img/wallet_icon.png');
+}
+
+.menu__icon_feed {
+    background-image: url('../../img/feed_icon.png');
+}
+
+.menu__title {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    
+}
+
+.menu__link:hover .menu__title {
+    color: #221f1f;
+}
+
+.menu__link:hover .menu__icon_triangle {
+    background-image: url('../../img/main_icon_hover.png');
+}
+
+.menu__link:hover .menu__icon_wallet {
+    background-image: url('../../img/wallet_icon_hover.png');
+}
+
+.menu__link:hover .menu__icon_feed {
+    background-image: url('../../img/feed_icon_hover.png');
+}
+
+/* ХЛЕБНЫЕ КРОШКИ */
+
+.content {
+    width: 900px;
+    margin-left: 200px;
+}
+
+.breadcrumbs {
+    position: relative;
+    float: left;
+    top: 31px;
+    left: -2px;
+    font-style: italic;
+    font-size: 14px;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+}
+
+.breadcrumbs__item {
+    display: inline;
+}
+
+.breadcrumbs__link {
+    color: rgb(236, 30, 121);
+}
+
+.breadcrumbs .breadcrumbs__link--active {
+    color: #000000;
+    text-decoration: none;
+    cursor: default;
+}
+
+.breadcrumbs__link:hover {
+    color: #000000;
+}
+
+.breadcrumbs__item:not(:last-child):after {
+    content: '/';
+}

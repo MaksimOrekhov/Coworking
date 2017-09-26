@@ -1,0 +1,76 @@
+/* ФУТЕР */
+
+.footer {
+    background-color: rgb(39, 39, 62);
+    width: 100%;
+    margin-top: 1px;
+    min-width: 1140px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer__col {
+    float: left;
+    width: 33.3%;
+}
+
+.footer__author {
+    max-width: 280px;
+    padding: 12px 15px 15px 20px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.school_name {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer__social {
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 19px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    float: right;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.socials__icons {
+    display: inline-block;
+    background: #d4d4d8;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.footer__pic {
+    margin: 15px 36%;
+}
+
+.icons__pic {
+    margin-top: 5px;
+}
+
+.icons {
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.socials__icons:hover {
+    background-color: #ec1e79;
+}
