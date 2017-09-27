@@ -59,17 +59,18 @@
 }
 
 .menu__link:hover .menu__icon_triangle {
-    background-image: url('../../img/main_icon_hover.png');transition-duration: 0.5s; 
+    transition-duration: 0.5s; 
+    filter: grayscale(1) brightness(0);
 }
 
 .menu__link:hover .menu__icon_wallet {
-    background-image: url('../../img/wallet_icon_hover.png');
     transition-duration: 0.5s; 
+    filter: grayscale(1) brightness(0);
 }
 
 .menu__link:hover .menu__icon_feed {
-    background-image: url('../../img/feed_icon_hover.png');
     transition-duration: 0.5s; 
+    filter: grayscale(1) brightness(0);
 }
 
 /* ХЛЕБНЫЕ КРОШКИ */
