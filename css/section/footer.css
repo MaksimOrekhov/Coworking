@@ -73,4 +73,5 @@
 
 .socials__icons:hover {
     background-color: #ec1e79;
+    transition-duration: 0.5s; 
 }

@@ -55,18 +55,21 @@
 
 .menu__link:hover .menu__title {
     color: #221f1f;
+    transition-duration: 0.5s; 
 }
 
 .menu__link:hover .menu__icon_triangle {
-    background-image: url('../../img/main_icon_hover.png');
+    background-image: url('../../img/main_icon_hover.png');transition-duration: 0.5s; 
 }
 
 .menu__link:hover .menu__icon_wallet {
     background-image: url('../../img/wallet_icon_hover.png');
+    transition-duration: 0.5s; 
 }
 
 .menu__link:hover .menu__icon_feed {
     background-image: url('../../img/feed_icon_hover.png');
+    transition-duration: 0.5s; 
 }
 
 /* ХЛЕБНЫЕ КРОШКИ */
@@ -87,17 +90,18 @@
 }
 
 .breadcrumbs__link {
-    color: rgb(236, 30, 121);
+    color: #ec1e79;
 }
 
-.breadcrumbs .breadcrumbs__link--active {
-    color: #000000;
+.breadcrumbs__link--active {
+    color: #000;
     text-decoration: none;
     cursor: default;
 }
 
 .breadcrumbs__link:hover {
-    color: #000000;
+    color: #000;
+    transition-duration: 0.5s; 
 }
 
 .breadcrumbs__item:not(:last-child):after {

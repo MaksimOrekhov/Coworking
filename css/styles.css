@@ -5,6 +5,7 @@
 @import url("./section/header.css");
 @import url("./section/prices.css");
 @import url("./section/sidebar.css");
+@import url("./section/intro.css");
 
 @font-face {
     font-family: "Gotham Pro";
@@ -54,35 +55,4 @@ h5,
 h6 {
     margin: 0;
     font-weight: normal;
-}
-
-.intro {
-    background-image: url("../img/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;   
-}
-
-.intro__logo {
-    margin: 0 auto;
-    display: block;
-    margin-top: 20%;
-}
-
-.button {
-    display: block;
-    padding: 14px 20px 13px 20px;
-    width: 185px;
-    margin: 30px auto;
-    border: 3px solid #ec1e79;
-    text-decoration: none;
-    color: #ec1e79;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-
-.button:hover {
-    color: #fff;
-    background-color: #ec1e79;
 }

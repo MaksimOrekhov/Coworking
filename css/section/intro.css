@@ -1,0 +1,43 @@
+.intro {
+    background-image: url("../../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.intro__logo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20%;
+    animation: appear 2s;
+}
+
+.button {
+    display: block;
+    padding: 14px 20px 13px 20px;
+    width: 185px;
+    margin: 30px auto;
+    border: 3px solid #ec1e79;
+    text-decoration: none;
+    color: #ec1e79;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    animation: appear 2s;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #ec1e79;
+    transition-duration: 0.5s; 
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
