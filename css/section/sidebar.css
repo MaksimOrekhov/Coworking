@@ -23,7 +23,7 @@
 }
 
 .menu {
-    padding-left: 17px;
+    padding-left: 12px;
 }
 
 .menu__icon {
@@ -49,7 +49,7 @@
 .menu__title {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 15px;
+    padding-left: 13px;
     
 }
 
@@ -71,21 +71,15 @@
 
 /* ХЛЕБНЫЕ КРОШКИ */
 
-.content {
-    width: 900px;
-    margin-left: 200px;
-}
-
 .breadcrumbs {
     position: relative;
     float: left;
-    top: 31px;
-    left: -2px;
+    margin-top: 44px;
+    padding: 0px;
     font-style: italic;
     font-size: 14px;
     width: 100%;
     list-style: none;
-    padding: 0px;
 }
 
 .breadcrumbs__item {

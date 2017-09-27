@@ -2,9 +2,8 @@
 /* ГЛАВНАЯ СТРАНИЦА */
 
 .about {
-    display: inline-block;
     float: left;
-    margin-left: 22px;
+    margin-left: 14px;
     width: 700px;
 }
 
@@ -23,7 +22,7 @@
     font-weight: bold;
     color: #fff;
     top: 234px;
-    left: 430px;
+    left: 442px;
 }
 
 .main__content {
@@ -33,7 +32,6 @@
 }
 
 .main__text {
-    display: inline-block;
     float: left;
     color: #221f1f;
     font-size: 18px;
@@ -60,9 +58,9 @@
 
 .rect {
     color: #fff;
-    padding: 10px 55px 13px 30px;
+    padding: 18px 55px 13px 30px;
     background-color: #27273e;
-    margin-bottom: 86px;
+    margin-bottom: 79px;
 }
 
 .rect__disc {
@@ -94,6 +92,7 @@
     margin-right: 125px;
     margin-bottom: 51px;
     width: 147px;
+    filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     text-align: center;
 }

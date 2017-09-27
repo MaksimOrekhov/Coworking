@@ -4,13 +4,7 @@
     background-color: rgb(39, 39, 62);
     width: 100%;
     margin-top: 1px;
-    min-width: 1140px;
-}
-
-.clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
+    min-width: 1100px;
 }
 
 .footer__col {
@@ -20,7 +14,9 @@
 
 .footer__author {
     max-width: 280px;
-    padding: 12px 15px 15px 20px;
+    padding-top: 12px;
+    padding-left: 11px;
+    padding-bottom: 15px;
     color: #ffffff;
     font-size: 14px;
     line-height: 1.3em;
@@ -33,10 +29,8 @@
 }
 
 .footer__social {
-    display: inline-block;
     color: #ffffff;
-    margin-right: 19px;
-    margin-top: 20px;
+    padding-top: 20px;
     font-weight: bold;
     font-size: 14px;
     float: right;
@@ -44,8 +38,13 @@
 
 .socials {
     list-style: none;
-    padding: 0;
-    margin-top: 8px;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.social__text {
+    padding-left: 20px;
 }
 
 .socials__icons {
@@ -56,7 +55,8 @@
 }
 
 .footer__pic {
-    margin: 15px 36%;
+    padding-top: 16px;
+    padding-left: 39%;
 }
 
 .icons__pic {
