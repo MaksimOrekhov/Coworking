@@ -1,5 +1,25 @@
 /* БОКОВОЕ МЕНЮ */
 
+.sidebar {
+    float: left;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.menu {
+    padding-left: 12px;
+}
+
+.menu__item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 29px;
+}
+
+.menu__item:last-child {
+    margin-bottom: 0;
+}
+
 .menu__link {
     display: inline-block;
     text-decoration: none;
@@ -8,22 +28,6 @@
     color: rgb(236, 30, 121);
     letter-spacing: 0.1em;
     font-weight: bold;
-}
-
-.sidebar {
-    float: left;
-    width: 180px;
-    margin-top: 30px;
-}
-
-.menu__item {
-    display: inline-block;
-    list-style: none;
-    padding-bottom: 29px;
-}
-
-.menu {
-    padding-left: 12px;
 }
 
 .menu__icon {
@@ -50,7 +54,7 @@
     display: inline-block;
     vertical-align: middle;
     padding-left: 13px;
-    
+    max-width: 80px;
 }
 
 .menu__link:hover .menu__title {

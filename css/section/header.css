@@ -20,9 +20,13 @@
     text-decoration: none;
 }
 
+.contacts__schedule {
+    position: relative;
+}
+
 .schedule__text {
     display: inline-block;
-    font-family: Open sans;
+    font-family: Open Sans;
     font-size: 14px;
     color: rgb(192, 33, 105);
     text-decoration: underline;
@@ -45,22 +49,57 @@
     display: block;
 }
 
+.contacts__schedule-time p {
+    margin: 0;
+}
+
 .contacts__schedule-time {
     font-size: 14px;
     position: absolute;
-    top: 60px;
-    right: 172px;
+    top: 40px;
+    right: -3px;
     display: none;
-    width: 172px;
-    height: 98px;
-    padding-top: 20px;
-    padding-left: 15px;
-    background-image: url("../../img/Rounded_Rectangle.png");
-    background-repeat: no-repeat;
+    width: 162px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 12px;
     z-index: 5;
+    background-color: #fff;
+    border-radius: 3px;
+    filter: drop-shadow(1px 1px 8px #000);
+}
+
+.contacts__schedule-time:after {
+    content: "";
+    border-bottom: 12px solid #fff;
+    border-top: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 100%;
+    top: -31%;
+    z-index: 5;
+    margin-left: -24px;
+}
+
+.contacts__schedule-time:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 23px;
+    left: 0;
+    right: 0;
+    top: -22px;
 }
 
 .bold {
     color: rgb(192, 33, 105);
     font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.logo {
+    display: inline-block;
 }

@@ -15,12 +15,20 @@
     border-bottom: 2px solid #f5f5f5;
 }
 
+.comments__item:last-child {
+    margin-bottom: 15px;
+}
+
 .comments__item{
     list-style: none;
     margin-bottom: 30px;
 }
 
-.item__pic {
+.comments__block {
+    padding-bottom: 20px;
+}
+
+.comments__pic {
     position: relative;
     float: left;
     border-radius: 50%;
@@ -30,7 +38,7 @@
     margin-right: 20px;
 }
 
-.item__logo{
+.comments__logo{
     position: absolute;
     top: 45%;
     left: 51%;
@@ -38,28 +46,26 @@
     filter: grayscale(1) contrast(0) brightness(1.6);
 }
 
-.item__date {
+.comments__date {
     font-size: 14px;
     font-weight: 400;
-    padding-bottom: 11px;
+    margin-bottom: 11px;
 }
 
-.item__name {
+.comments__name {
     font-size: 18px;
     font-weight: 700;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
-.item__text {
+.comments__text {
     font-size: 18px;
     line-height: 1.67em;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 
 .paginator {
     display: block;
-    margin-top: 35px;
     margin-left: 212px;
     margin-bottom: 78px;
     font-size: 14px;
@@ -70,6 +76,13 @@
 .paginator__title {
     float: left;
     padding-right: 10px;
+}
+
+.paginator__list {
+    float: left;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 .paginator__item {

@@ -23,7 +23,7 @@
     text-align: left;
 }
 
-.school_name {
+.footer__school {
     font-weight: bold;
     color: #fff;
 }
@@ -43,7 +43,7 @@
     padding-right: 10px;
 }
 
-.social__text {
+.footer__text {
     padding-left: 20px;
 }
 
@@ -56,7 +56,10 @@
 
 .footer__pic {
     padding-top: 16px;
-    padding-left: 39%;
+}
+
+.footer__link {
+    margin-left: 137px;
 }
 
 .icons__pic {
