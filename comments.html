@@ -39,28 +39,28 @@
 
         <div class="container clearfix">
             <aside class="navigation">
-            <nav class="sidebar">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a href="main.html" class="menu__link">
-                            <div class="menu__icon menu__icon_triangle"></div>
-                            <div class="menu__title">Главная</div>
-                        </a>
-                    </li>
-                    <li class="menu__item menu__item-active">
-                        <a href="prices.html" class="menu__link">
-                            <div class="menu__icon menu__icon_wallet"></div>
-                            <div class="menu__title">Тарифы</div>
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="comments.html" class="menu__link">
-                            <div class="menu__icon menu__icon_feed"></div>
-                            <div class="menu__title">Отзывы</div>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="sidebar">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="main.html" class="menu__link">
+                                <div class="menu__icon menu__icon_triangle"></div>
+                                <div class="menu__title">Главная</div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item-active">
+                            <a href="prices.html" class="menu__link">
+                                <div class="menu__icon menu__icon_wallet"></div>
+                                <div class="menu__title">Тарифы</div>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="comments.html" class="menu__link">
+                                <div class="menu__icon menu__icon_feed"></div>
+                                <div class="menu__title">Отзывы</div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </aside>
 
             <!-- ХЛЕБНЫЕ КРОШКИ -->
@@ -183,7 +183,62 @@
                 </div>
 
             </div>
-        </div>
+
+            <!-- форма -->
+           <div class="form">
+                <div class="form__title">Оставить отзыв</div>
+                  <div class="form__fields">
+                    <form action="" class="form__comments">
+                        <div class="form__row">
+                            <div class="form__elem">
+                                <label for="" class="form__elem-title">Ваше имя</label>
+                                <input type="text" name="name" class="form__input" placeholder="Андрей">
+                            </div>
+                            <div class="form__elem">
+                                <label for="" class="form__elem-title">Ссылка на профиль VK</label>
+                                <input type="text" name="adress" class="form__input" placeholder="vk.com/example">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__textarea">
+                                <label for="" class="form__elem-title">Текст отзыва</label>
+                                <textarea name="" class="form__text-input" placeholder="Мне понравилось"></textarea>
+                            </div>
+                        </div>
+                        <div class="form__buttons">
+                            <div class="form__radios">
+                                <div class="form__radios-title">Отображать фото в отзыве?</div>
+                                <div class="form__radios-container">
+                                    <div class="form__radio">
+                                        <label class="form__radio-style">
+                                            <input type="radio" name="photo" value="" class="form__radio-elem" checked>
+                                            <div class="form__radio-circle"></div> 
+                                            <span class="check__styled"></span>  
+                                            <span class="form__radio-name">Да</span>
+                                        </label>
+                                    </div>
+                                    <div class="form__radio">
+                                        <label class="form__radio-style">
+                                            <input type="radio" name="photo" value="" class="form__radio-elem" >
+                                            <div class="form__radio-circle"></div> 
+                                            <span class="check__styled"></span>  
+                                            <span class="form__radio-name">Нет</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__controls">
+                                <button type="submit" class="form__submit">
+                                <div class="form__submit-text">Отправить</div>
+                                <div class="form__submit-icon"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                 </div>
+           </div>
+
+            </div>
         </div>
 
             <!-- ФУТЕР -->
