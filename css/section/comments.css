@@ -268,8 +268,8 @@
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 18%;
-    top: 50%;
+    left: 10px;
+    top: 6px;
 }
 
 .check__styled {
