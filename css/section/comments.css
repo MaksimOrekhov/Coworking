@@ -177,7 +177,6 @@
     width: 270px;
     height: 45px;
     font-size: 14px;
-    color: #a9a8a8;
     padding-left: 10px;
     border: 1px solid transparent;
     border-radius: 3px;
@@ -225,7 +224,6 @@
 .form__radio {
     display: inline-block;
     position: relative;
-    
 }
 
 .form__radio-elem {
