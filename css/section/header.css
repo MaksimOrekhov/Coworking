@@ -31,7 +31,7 @@
     color: rgb(192, 33, 105);
     text-decoration: underline;
     font-weight: bold;
-    padding-left: 85px;
+    float: right;
     padding-top: 1px;
 }
 
