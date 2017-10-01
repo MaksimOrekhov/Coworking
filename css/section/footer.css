@@ -66,6 +66,14 @@
     margin-top: 5px;
 }
 
+.icons__pic-vk {
+    margin-top: 6px;
+}
+
+.icons__pic-fb {
+    margin-top: 3px;
+}
+
 .icons {
     display: inline-block;
     width: 21px;

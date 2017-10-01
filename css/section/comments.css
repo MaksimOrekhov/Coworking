@@ -177,7 +177,7 @@
     width: 270px;
     height: 45px;
     font-size: 14px;
-    padding-left: 10px;
+    padding: 10px;
     border: 1px solid transparent;
     border-radius: 3px;
     outline: transparent;
@@ -233,6 +233,7 @@
 
 .form__radio-style {
     position: relative;
+    cursor: pointer;
 }
 
 .form__radio-style > .form__radio-elem:checked + .form__radio-circle > .check__styled {
@@ -288,7 +289,7 @@
     left: 100%;
     top: 25%;
     width: 140px;
-    height: 45px;
+    /* height: 45px; */
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
@@ -304,4 +305,9 @@
 .form__submit:hover {
     background-color: #ec1e79;
     transition-duration: 0.3s;
+}
+
+.form__submit-text {
+    padding-top: 13px;
+    padding-bottom: 13px;
 }

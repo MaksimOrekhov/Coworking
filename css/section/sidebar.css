@@ -65,16 +65,19 @@
 .menu__link:hover .menu__icon_triangle {
     transition-duration: 0.5s; 
     filter: grayscale(1) brightness(0);
+    -webkit-filter: grayscale(1) brightness(0);
 }
 
 .menu__link:hover .menu__icon_wallet {
     transition-duration: 0.5s; 
     filter: grayscale(1) brightness(0);
+    -webkit-filter: grayscale(1) brightness(0);
 }
 
 .menu__link:hover .menu__icon_feed {
     transition-duration: 0.5s; 
     filter: grayscale(1) brightness(0);
+    -webkit-filter: grayscale(1) brightness(0);
 }
 
 /* ХЛЕБНЫЕ КРОШКИ */
