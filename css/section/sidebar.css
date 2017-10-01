@@ -80,6 +80,11 @@
     -webkit-filter: grayscale(1) brightness(0);
 }
 
+.menu__link--active {
+    filter: grayscale(1) brightness(0);
+    -webkit-filter: grayscale(1) brightness(0);
+}
+
 /* ХЛЕБНЫЕ КРОШКИ */
 
 .breadcrumbs {
