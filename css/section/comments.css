@@ -60,7 +60,7 @@
 
 .comments__text {
     font-size: 18px;
-    line-height: 1.67em;
+    line-height: 1.67;
     overflow: hidden;
 }
 
@@ -135,6 +135,7 @@
     background-color: #f5f5f5;
     margin-left: 191px;
     margin-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .form__title {
@@ -213,7 +214,6 @@
 
 .form__buttons {
     position: relative;
-    padding-bottom: 50px;
     font-size: 14px;
 }
 
@@ -287,9 +287,8 @@
     position: absolute;
     transform: translate(-100%, -50%);
     left: 100%;
-    top: 25%;
+    top: 53%;
     width: 140px;
-    /* height: 45px; */
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;

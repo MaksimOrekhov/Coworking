@@ -66,6 +66,7 @@
     background-color: #fff;
     border-radius: 3px;
     filter: drop-shadow(1px 1px 8px #000);
+    padding-right: 5px;
 }
 
 .contacts__schedule-time:after {

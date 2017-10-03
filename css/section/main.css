@@ -2,15 +2,18 @@
 /* ГЛАВНАЯ СТРАНИЦА */
 
 .about {
-    float: left;
-    margin-left: 191px;
-    width: 700px;
+    margin-left: 192px;
+    width: 879px;
 }
 
-.about__pic {
-    float: left;
+.about__head {
     position: relative;
-    width: 880px;
+    margin-bottom: 6px;
+    background-image: url("../../img/about_img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 354px;
 }
 
 .about__text {
@@ -24,14 +27,14 @@
 }
 
 .main__text {
-    float: left;
     color: #221f1f;
     font-size: 18px;
-    line-height: 1.5em;
+    line-height: 1.5;
+    padding-right: 180px;
 }
 
 .main__list {
-    line-height: 1.9em;
+    line-height: 1.9;
     padding-left: 35px;
     margin-top: -15px;
 }
@@ -50,7 +53,7 @@
 
 .rect {
     color: #fff;
-    padding: 18px 55px 13px 30px;
+    padding: 20px 55px 15px 30px;
     background-color: #27273e;
     margin-bottom: 17px;
 }
