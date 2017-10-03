@@ -16,7 +16,7 @@
     height: 354px;
 }
 
-.about__text {
+.about__title {
     position: absolute;
     text-transform: uppercase;
     font-size: 49px;
@@ -26,32 +26,32 @@
     left: 62px;
 }
 
-.main__text {
+.about__text {
     color: #221f1f;
     font-size: 18px;
     line-height: 1.5;
     padding-right: 180px;
 }
 
-.main__list {
+.about__list {
     line-height: 1.9;
     padding-left: 35px;
     margin-top: -15px;
 }
 
-.main__text li {
+.about__text li {
     list-style: none;
     position: relative;
 }
 
-.main__list li:before {
+.about__list li:before {
 	content:'•';
 	color: #ec1e79;
     left: -20px;
     position: absolute;
 }
 
-.rect {
+.about__rect {
     color: #fff;
     padding: 20px 55px 15px 30px;
     background-color: #27273e;
@@ -63,7 +63,7 @@
     font-weight: bold;
 }
 
-.logos {
+.partners__logos {
     float: left;
     margin-top: 50px;
     margin-bottom: 20px;
